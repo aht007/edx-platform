@@ -18,6 +18,7 @@ jobs:
           token: ${{ secrets.REQUIREMENTS_BOT_GITHUB_TOKEN }}
 
       - name: Run GitHub Actions Version Updater
-        uses: saadmk11/github-actions-version-updater@v0.5.6
+        uses: saadmk11/github-actions-version-updater@main
         with:
           token: ${{ secrets.REQUIREMENTS_BOT_GITHUB_TOKEN }}
+          pull_request_user_reviewers: "awais786"
