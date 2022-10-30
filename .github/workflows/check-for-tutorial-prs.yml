@@ -23,10 +23,10 @@ jobs:
     name: provide helpful bot comment
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.1.0
 
       - name: Comment PR
-        uses: thollander/actions-comment-pull-request@v1
+        uses: thollander/actions-comment-pull-request@v1.5.0
         with:
           message: |
             Thank you for your pull request! Congratulations on completing the Open edX tutorial! A team member will be by to take a look shortly.
